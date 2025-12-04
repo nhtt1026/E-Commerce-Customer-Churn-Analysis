@@ -19,7 +19,7 @@ The goal is to understand who churns and why churn occurs so that the business c
 
 ## 3) Data Source:
 
-Dataset obtained from Kaggle: https://www.kaggle.com
+Dataset source: [https://www.kaggle.com](https://www.kaggle.com/datasets/ankitverma2010/ecommerce-customer-churn-analysis-and-prediction?sort=most-comments)
 
 Number of records: ~2500 customers  
 1 record equals 1 customer profile
