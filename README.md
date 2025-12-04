@@ -62,12 +62,12 @@ Number of records: ~2500 customers
 
 ### Segmentation Dimensions:
 
-- Customer Type  
-- Tenure Band  
-- Days Since Last Order Band  
-- Product Category  
-- Preferred Login Device  
-- Preferred Payment Mode  
+- CustomerType  
+- Tenure Band (0–3, 3–6, 6–12, 12–24, 24+ months)  
+- DaysSinceLastOrder Band (0–2, 3–7, 8–14, 14+ days)  
+- PreferredOrderCat (Laptop & Accessory, Mobile, Fashion, Grocery, Others)  
+- Channel: PreferredLoginDevice, PreferredPaymentMode  
+- Demographics: Gender, MaritalStatus, CityTier   
 
 ---
 
