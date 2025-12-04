@@ -71,7 +71,7 @@ Number of records: ~2500 customers
 
 ---
 
-## 5. Dashboard Overview:
+## 5) Dashboard Overview:
 
 ### Executive Churn Overview:
 
@@ -83,7 +83,7 @@ Number of records: ~2500 customers
 
 ---
 
-## 6. Insights and Recommendations:
+## 6) Insights and Recommendations:
 
 ### Insights:
 
