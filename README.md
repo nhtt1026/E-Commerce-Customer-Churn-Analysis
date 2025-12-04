@@ -71,9 +71,9 @@ Number of records: ~2500 customers
 
 ---
 
-## 5) Dashboard Overview:
+## 5) Churn Analysis Dashboard:
 
-### Executive Churn Overview:
+### Churn Overview:
 
 <img width="2402" height="1432" alt="image" src="https://github.com/user-attachments/assets/f0ba221f-8d73-4053-96f0-7693a0c9b73b" />
 
