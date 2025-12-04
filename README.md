@@ -81,12 +81,12 @@ Number of records: ~2500 customers
 
 ---
 
-## 6) Predictive Modeling (SAS Enterprise Miner)
+## 6) Predictive Modeling (SAS EM)
 
-### Model Objective
+### Model Objective:
 Predict customer churn and identify variables with the strongest influence on churn behaviour.
 
-### Analytical Flow
+### Analytical Flow:
 - Data Cleaning and Imputation  
 - Variable Selection and Transformations  
 - Training/Validation Split: **70% training 30% validation**  
@@ -105,10 +105,10 @@ Predict customer churn and identify variables with the strongest influence on ch
 <img width="2304" height="464" alt="image" src="https://github.com/user-attachments/assets/da3f2249-69ff-4ad3-a464-7f5374ab9569" />
 
 \** AUC values are approximated from the ROC curves; Neural Network shows the highest area under the curve, followed by Decision Tree, then Regression.
+<img width="2000" height="1074" alt="image" src="https://github.com/user-attachments/assets/9d493061-d3da-4513-806e-97d435aae0c0" />
 
-Decision Tree is selected as the final deployment model due to its strong predictive power **and** clear interpretability for business stakeholders, while the Neural Network is kept as a supporting model for high-precision churn risk scoring.
+**Decision Tree** is selected as the final deployment model due to its strong predictive power and clear interpretability for business stakeholders, while the Neural Network is kept as a supporting model for high-precision churn risk scoring.
 
-**Decision Tree chosen** as the final model due to model transparency and strong business interpretability.
 <img width="1313" height="708" alt="image" src="https://github.com/user-attachments/assets/070832e5-8545-4119-9e97-70e6b8f84b39" />
 
 ---
