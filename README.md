@@ -1,5 +1,3 @@
-# ABC E-Commerce Customer Churn Analysis
-
 ## 1) Introduction:
 
 ABC E-Commerce is experiencing an increase in customer churn, which impacts long-term revenue and marketing efficiency.  
@@ -83,22 +81,79 @@ Number of records: ~2500 customers
 
 ---
 
-## 6) Insights and Recommendations:
+## 6) Predictive Modeling (SAS Enterprise Miner)
 
-### Insights:
+### Model Objective
+Predict customer churn and identify variables with strongest influence on churn behaviour.
 
-- Early tenure customers show the highest churn  
-- Customers who lodge complaints churn at a significantly higher rate  
-- High-value customers generate strong revenue and remain loyal  
-- Higher churn risk observed among customers with very recent inactivity  
-- The majority of customers use coupons and shop via mobile using card-based payment methods  
+### Analytical Flow
+- Data Cleaning and Imputation  
+- Variable Selection and Transformations  
+- Training/Validation Split: **70% training 30% validation**  
+- Compute model performance and compare across methods  
 
-### Recommendations:
 
-- Improve onboarding journey and first 3 months engagement  
-- Strengthen complaint handling and service recovery programs  
-- Utilize recency triggers for timely promotional campaigns  
-- Invest in loyalty benefits for high-value customers  
-- Continue optimizing the mobile and card experience for higher conversion  
+### Performance Comparison
+
+| Model               | Validation Accuracy*        | Validation AUC (ROC)** | Best Use Case                                                | Selected                          |
+|---------------------|----------------------------|------------------------|--------------------------------------------------------------|-----------------------------------|
+| Neural Network      | **88.8%** (misclass = 0.1124) | **~ 0.95**             | Best predictive accuracy | Considered |
+| Decision Tree       | **88.8%** (misclass = 0.1124) | ~ 0.93                 | Interpretability + rule-based actions | ✓ Final Model |
+| Logistic Regression | **87.8%** (misclass = 0.1223) | ~ 0.90                 | Baseline benchmark | No |
+
+\* Accuracy = 1 − validation misclassification rate, taken from Fit Statistics.
+<img width="2304" height="464" alt="image" src="https://github.com/user-attachments/assets/da3f2249-69ff-4ad3-a464-7f5374ab9569" />
+
+\** AUC values are approximated from the ROC curves; Neural Network shows the highest area under the curve, followed by Decision Tree, then Regression.
+
+Decision Tree is selected as the final deployment model due to its strong predictive power **and** clear interpretability for business stakeholders, while the Neural Network is kept as a supporting model for high-precision churn risk scoring.
+
+**Decision Tree chosen** as the final model due to model transparency and strong business interpretability.
+<img width="1313" height="708" alt="image" src="https://github.com/user-attachments/assets/070832e5-8545-4119-9e97-70e6b8f84b39" />
+
+---
+
+### Key Churn Drivers Identified
+
+- **Recent inactivity** — strong leading indicator  
+- **Complaint behavior** — dissatisfied users churn quickly  
+- **New users with low tenure** — early negative experiences lead to churn  
+- **Low purchase and coupon usage** — weak retention habits  
+
+### Business Actions Enabled
+
+- Early churn alerts for immediate intervention  
+- Complaint recovery workflow with retention bonus  
+- Recency-based reactivation campaigns  
+- High-value customer protection with exclusive offers  
+
+---
+
+## 7) Insights and Recommendations
+
+### Insights
+
+- Recently inactive customers show highest churn probability  
+- Complaints increase churn likelihood more than tenure alone  
+- High-value customers deliver revenue benefits and retain longer  
+- Mobile and card payment users dominate purchasing behaviour  
+- Coupon usage drives engagement across all segments  
+
+### Recommendations
+
+- Reinforce onboarding experience within first 3 months  
+- Improve customer service resolution to protect at-risk users  
+- Trigger reactivation messages at early inactivity stages  
+- Maintain loyalty perks for high-value customers  
+- Continue optimizing mobile purchase flow  
+
+---
+
+## Tools Used
+
+| Tool | Purpose |
+|------|---------|
+| Power BI | Customer churn exploration and dashboard |
+| SAS Enterprise Miner | Predictive modeling and driver analysis |
 
 ---
