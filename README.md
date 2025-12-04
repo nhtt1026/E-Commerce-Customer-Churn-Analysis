@@ -102,6 +102,3 @@ Number of records: ~2500 customers
 - Continue optimizing the mobile and card experience for higher conversion  
 
 ---
-
-This analysis enables ABC E-Commerce to make data-driven decisions for improving customer retention and business profitability.  
-Further development can include predictive scoring integration and real-time campaign monitoring.
