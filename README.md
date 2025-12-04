@@ -84,7 +84,7 @@ Number of records: ~2500 customers
 ## 6) Predictive Modeling (SAS Enterprise Miner)
 
 ### Model Objective
-Predict customer churn and identify variables with strongest influence on churn behaviour.
+Predict customer churn and identify variables with the strongest influence on churn behaviour.
 
 ### Analytical Flow
 - Data Cleaning and Imputation  
@@ -97,7 +97,7 @@ Predict customer churn and identify variables with strongest influence on churn 
 
 | Model               | Validation Accuracy*        | Validation AUC (ROC)** | Best Use Case                                                | Selected                          |
 |---------------------|----------------------------|------------------------|--------------------------------------------------------------|-----------------------------------|
-| Neural Network      | **88.8%** (misclass = 0.1124) | **~ 0.95**             | Best predictive accuracy | Considered |
+| Neural Network      | **88.8%** (misclass = 0.1124) | ~ 0.95                 | Best predictive accuracy | Considered |
 | Decision Tree       | **88.8%** (misclass = 0.1124) | ~ 0.93                 | Interpretability + rule-based actions | ✓ Final Model |
 | Logistic Regression | **87.8%** (misclass = 0.1223) | ~ 0.90                 | Baseline benchmark | No |
 
