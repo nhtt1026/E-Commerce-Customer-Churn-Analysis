@@ -51,23 +51,23 @@ Number of records: ~2500 customers
 
 ### Core Metrics:
 
-- Churn Rate  
+- Churn Rate = Churned Customers / Total Customers 
 - Total Customers  
-- Percentage of High Value Customers  
-- Average Tenure  
+- % High-Value Customers
+- Average Tenure (months)
 - Average Order Count  
 - Average Cashback  
-- Customer Satisfaction Score  
-- Percentage of Coupon Users  
+- CSAT Score (Customer Satisfaction) 
+- % Coupon Users
 
 ### Segmentation Dimensions:
 
-- CustomerType  
-- Tenure Band (0–3, 3–6, 6–12, 12–24, 24+ months)  
-- DaysSinceLastOrder Band (0–2, 3–7, 8–14, 14+ days)  
-- PreferredOrderCat (Laptop & Accessory, Mobile, Fashion, Grocery, Others)  
-- Channel: PreferredLoginDevice, PreferredPaymentMode  
-- Demographics: Gender, MaritalStatus, CityTier   
+- Customer Type (Active – Regular, Active – High Value, Churned – Regular)
+- Product Preference
+- Payment Mode, Login Device
+- Complaint Status
+- Days Since Last Order (Recency Bands)
+- Tenure Bands
 
 ---
 
