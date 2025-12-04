@@ -28,7 +28,7 @@ Number of records: ~2500 customers
 
 | Field | Description |
 |------|-------------|
-| Churn | Churn flag indicating whether the customer has left |
+| Churn | Indicating whether the customer has left |
 | Tenure | Duration of relationship with the platform |
 | PreferredLoginDevice | Main device used to access the platform |
 | CityTier | Customer location tier |
@@ -44,8 +44,6 @@ Number of records: ~2500 customers
 | OrderCount | Number of completed orders |
 | DaySinceLastOrder | Days since the most recent purchase |
 | CashbackAmount | Cashback earned in last month |
-
-Derived fields include Customer Type and behavioural segmentation bands
 
 ---
 
@@ -79,7 +77,7 @@ Derived fields include Customer Type and behavioural segmentation bands
 
 <img width="2402" height="1432" alt="image" src="https://github.com/user-attachments/assets/f0ba221f-8d73-4053-96f0-7693a0c9b73b" />
 
-### Customer Segments and Behaviour
+### Customer Segments and Behaviour:
 
 <img width="2296" height="1296" alt="image" src="https://github.com/user-attachments/assets/fcbd8639-7570-4e0f-82e3-bac1205020ea" />
 
