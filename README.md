@@ -81,7 +81,7 @@ Number of records: ~2500 customers
 
 ---
 
-## 6) Predictive Modeling (SAS EM)
+## 6) Predictive Modeling (SAS EM):
 
 ### Model Objective:
 Predict customer churn and identify variables with the strongest influence on churn behaviour.
@@ -93,7 +93,7 @@ Predict customer churn and identify variables with the strongest influence on ch
 - Compute model performance and compare across methods  
 
 
-### Performance Comparison
+### Performance Comparison:
 
 | Model               | Validation Accuracy*        | Validation AUC (ROC)** | Best Use Case                                                | Selected                          |
 |---------------------|----------------------------|------------------------|--------------------------------------------------------------|-----------------------------------|
@@ -113,14 +113,14 @@ Predict customer churn and identify variables with the strongest influence on ch
 
 ---
 
-### Key Churn Drivers Identified
+### Key Churn Drivers Identified:
 
 - **Recent inactivity** — strong leading indicator  
 - **Complaint behavior** — dissatisfied users churn quickly  
 - **New users with low tenure** — early negative experiences lead to churn  
 - **Low purchase and coupon usage** — weak retention habits  
 
-### Business Actions Enabled
+### Business Actions Enabled:
 
 - Early churn alerts for immediate intervention  
 - Complaint recovery workflow with retention bonus  
@@ -129,9 +129,9 @@ Predict customer churn and identify variables with the strongest influence on ch
 
 ---
 
-## 7) Insights and Recommendations
+## 7) Insights and Recommendations:
 
-### Insights
+### Insights:
 
 - Recently inactive customers show highest churn probability  
 - Complaints increase churn likelihood more than tenure alone  
@@ -139,7 +139,7 @@ Predict customer churn and identify variables with the strongest influence on ch
 - Mobile and card payment users dominate purchasing behaviour  
 - Coupon usage drives engagement across all segments  
 
-### Recommendations
+### Recommendations:
 
 - Reinforce onboarding experience within first 3 months  
 - Improve customer service resolution to protect at-risk users  
@@ -148,12 +148,5 @@ Predict customer churn and identify variables with the strongest influence on ch
 - Continue optimizing mobile purchase flow  
 
 ---
-
-## Tools Used
-
-| Tool | Purpose |
-|------|---------|
-| Power BI | Customer churn exploration and dashboard |
-| SAS Enterprise Miner | Predictive modeling and driver analysis |
 
 ---
