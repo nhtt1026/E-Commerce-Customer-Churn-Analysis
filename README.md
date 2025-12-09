@@ -73,7 +73,7 @@ Number of records: ~2500 customers
 
 ### Churn Overview:
 
-<img width="2756" height="1552" alt="image" src="https://github.com/user-attachments/assets/601b0f73-89ac-4ab3-84e3-4eec93e94c15" />
+<img width="1527" height="859" alt="image" src="https://github.com/user-attachments/assets/d72bd859-8346-4321-b85b-ea13e19aeab7" />
 
 * **Overall churn rate ~16%**  
   Indicates a meaningful revenue risk if churn drivers are not addressed.
@@ -95,12 +95,17 @@ Number of records: ~2500 customers
 
 ### Customer Segments and Behaviour:
 
-<img width="2296" height="1296" alt="image" src="https://github.com/user-attachments/assets/fcbd8639-7570-4e0f-82e3-bac1205020ea" />
+<img width="1527" height="860" alt="image" src="https://github.com/user-attachments/assets/b9141895-296a-4069-b77e-140701059c79" />
 
 ### Customer Spending
 
 * High-value customers generate significantly higher cashback and revenue.  
 * Churned customers have the lowest order counts and lowest spending, showing weak retention behaviour before leaving.
+
+### Digital Device and Payment Behaviour
+
+* The majority of customers prefer **mobile login** and **card-based payments**.  
+* There is no substantial disparity across segments, indicating that the core technology experience is stable and not a primary churn driver.
 
 ### Product Preferences
 
@@ -112,11 +117,6 @@ Number of records: ~2500 customers
 * Around **76.6%** of all customers use coupons.  
 * Churned customers still show roughly **80%** coupon usage, suggesting that discounting alone does not prevent churn.  
   Campaigns should be targeted, not universal.
-
-### Digital Device and Payment Behaviour
-
-* The majority of customers prefer **mobile login** and **card-based payments**.  
-* There is no substantial disparity across segments, indicating that the core technology experience is stable and not a primary churn driver.
   
 ---
 
