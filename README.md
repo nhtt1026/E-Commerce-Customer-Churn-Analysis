@@ -73,7 +73,8 @@ Number of records: ~2500 customers
 
 ### Churn Overview:
 
-<img width="2402" height="1432" alt="image" src="https://github.com/user-attachments/assets/f0ba221f-8d73-4053-96f0-7693a0c9b73b" />
+<img width="2756" height="1552" alt="image" src="https://github.com/user-attachments/assets/601b0f73-89ac-4ab3-84e3-4eec93e94c15" />
+
 
 ### Customer Segments and Behaviour:
 
