@@ -75,11 +75,49 @@ Number of records: ~2500 customers
 
 <img width="2756" height="1552" alt="image" src="https://github.com/user-attachments/assets/601b0f73-89ac-4ab3-84e3-4eec93e94c15" />
 
+* **Overall churn rate ~16%**  
+  Indicates a meaningful revenue risk if churn drivers are not addressed.
+
+* **Early churn is a major issue**  
+  Customers in their first **0–3 months** churn at **41.8%**, highlighting problems in onboarding and early product experience.
+
+* **Complaints have a huge impact**  
+  Churn is **32%** among customers who reported complaints vs **10%** for those who did not.  
+  Service dissatisfaction is a major churn trigger.
+
+* **Inactive customers churn faster**  
+  Customers who have not purchased in **0–2 days** show **23.3%** churn, which declines steadily with longer recency.  
+  Recency is an effective behavioural risk flag.
+
+* **High-value vs regular customers**  
+  High-value customers represent **31%** of the base and show stronger loyalty, with longer tenure and better CSAT scores.  
+  They are critical for revenue protection and retention focus.
 
 ### Customer Segments and Behaviour:
 
 <img width="2296" height="1296" alt="image" src="https://github.com/user-attachments/assets/fcbd8639-7570-4e0f-82e3-bac1205020ea" />
 
+### Customer Spending
+
+* High-value customers generate significantly higher cashback and revenue.  
+* Churned customers have the lowest order counts and lowest spending, showing weak retention behaviour before leaving.
+
+### Product Preferences
+
+* **Mobile phones** and **laptop accessories** are the top categories across all segments.  
+* Churn is highest in the mobile category, where product experience or pricing may be contributing factors.
+
+### Coupon Usage
+
+* Around **76.6%** of all customers use coupons.  
+* Churned customers still show roughly **80%** coupon usage, suggesting that discounting alone does not prevent churn.  
+  Campaigns should be targeted, not universal.
+
+### Digital Device and Payment Behaviour
+
+* The majority of customers prefer **mobile login** and **card-based payments**.  
+* There is no substantial disparity across segments, indicating that the core technology experience is stable and not a primary churn driver.
+  
 ---
 
 ## 6) Predictive Modeling (SAS EM):
