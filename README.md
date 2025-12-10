@@ -97,22 +97,22 @@ Number of records: ~2500 customers
 
 <img width="1527" height="860" alt="image" src="https://github.com/user-attachments/assets/b9141895-296a-4069-b77e-140701059c79" />
 
-### Customer Spending
+### Customer Spending:
 
 * High-value customers generate significantly higher cashback and revenue.  
 * Churned customers have the lowest order counts and lowest spending, showing weak retention behaviour before leaving.
 
-### Digital Device and Payment Behaviour
+### Digital Device and Payment Behaviour:
 
 * The majority of customers prefer **mobile login** and **card-based payments**.  
 * There is no substantial disparity across segments, indicating that the core technology experience is stable and not a primary churn driver.
 
-### Product Preferences
+### Product Preferences:
 
 * **Mobile phones** and **laptop accessories** are the top categories across all segments.  
 * Churn is highest in the mobile category, where product experience or pricing may be contributing factors.
 
-### Coupon Usage
+### Coupon Usage:
 
 * Around **76.6%** of all customers use coupons.  
 * Churned customers still show roughly **80%** coupon usage, suggesting that discounting alone does not prevent churn.  
@@ -148,23 +148,56 @@ Predict customer churn and identify variables with the strongest influence on ch
 
 **Decision Tree** is selected as the final deployment model due to its strong predictive power and clear interpretability for business stakeholders, while the Neural Network is kept as a supporting model for high-precision churn risk scoring.
 
-<img width="2860" height="1560" alt="image" src="https://github.com/user-attachments/assets/e0a420b9-9691-41c0-bb6a-5e41a9959331" />
+<img width="2826" height="1488" alt="image" src="https://github.com/user-attachments/assets/84da371c-f1d7-44a1-a5fa-f1ec841894df" />
 
 ---
 
-### Key Variables in the Decision Tree Model:
+### 7) Key Variables in the Decision Tree Model:
 
-- **Recent inactivity** — strong leading indicator  
-- **Complaint behavior** — dissatisfied users churn quickly  
-- **New users with low tenure** — early negative experiences lead to churn  
-- **Low purchase and coupon usage** — weak retention habits  
+<img width="2040" height="522" alt="image" src="https://github.com/user-attachments/assets/9d40f429-d809-465b-be3c-1dda99a3fde7" />
 
-### Churn Probability Among Customer Segments:
+Based on the variable-importance output from the Decision Tree, the key predictors of churn are:
 
-- Early churn alerts for immediate intervention  
-- Complaint recovery workflow with retention bonus  
-- Recency-based reactivation campaigns  
-- High-value customer protection with exclusive offers  
+**Tenure:**  
+- **Importance:** Train `1.0000`; Validation `1.0000` (highest).  
+- **Insight:** Tenure is the dominant driver of churn. Churn is essentially an early-life problem: new customers behave very differently from established ones, so retention strategy must be tenure-based.
+
+**Complain:**  
+- **Importance:** Train `0.5345`; Validation `0.5613`.  
+- **Insight:** Logged complaints are the second-strongest signal. Customers who raise issues are much more likely to churn, so speed and quality of complaint handling are critical levers.
+
+**HighValueScore:**  
+- **Importance:** Train `0.3778`; Validation `0.3715`.  
+- **Insight:** The composite value score strongly separates “core revenue” customers from the rest. It should be used to prioritize which at-risk users receive more aggressive retention offers.
+
+**NumberOfAddress:**  
+- **Importance:** Train `0.3767`; Validation `0.3618`.  
+- **Insight:** Customers using many delivery addresses are structurally more likely to churn, suggesting comparison shoppers / low loyalty. This segment needs clear, differentiated value to stay.
+
+**WarehouseToHome (distance):**  
+- **Importance:** Train `0.3240`; Validation `0.3306`.  
+- **Insight:** Longer delivery distance meaningfully increases churn risk, especially when combined with complaints. Logistics performance is a direct churn driver, not just a cost center.
+
+**DaySinceLastOrder (recency):**  
+- **Importance:** Train `0.3189`; Validation `0.3458`.  
+- **Insight:** Recency is a strong behavioural flag. Rising days since last order is an early warning for churn and should trigger re-engagement campaigns.
+
+**SatisfactionScore:**  
+- **Importance:** Train `0.2758`; Validation `0.3151`.  
+- **Insight:** Lower satisfaction boosts churn even when customers do not complain. Silent dissatisfaction needs to be monitored via surveys and NPS, not only tickets.
+
+**HighValue flag:**  
+- **Importance:** Train `0.2388`; Validation `0.2380`.  
+- **Insight:** Being tagged as a high-value customer is itself protective. These users churn the least and should be shielded from bad experiences and unnecessary friction.
+
+#### Key Takeaway:
+
+The Decision Tree confirms that **tenure, complaints, value level, and delivery experience** are the main levers behind churn.  
+ABC E-Commerce should take actions on on early-tenure customers with complaints, long delivery distance, low satisfaction, or rising inactivity is expected to deliver the largest impact on churn reduction.
+
+### 8) Churn Probability Among Segments:
+
+<img width="2860" height="1560" alt="image" src="https://github.com/user-attachments/assets/b2240b7e-75b0-47a8-8f15-51708971027f" />
 
 ---
 
