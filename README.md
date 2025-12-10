@@ -148,18 +148,18 @@ Predict customer churn and identify variables with the strongest influence on ch
 
 **Decision Tree** is selected as the final deployment model due to its strong predictive power and clear interpretability for business stakeholders, while the Neural Network is kept as a supporting model for high-precision churn risk scoring.
 
-<img width="1313" height="708" alt="image" src="https://github.com/user-attachments/assets/070832e5-8545-4119-9e97-70e6b8f84b39" />
+<img width="2860" height="1560" alt="image" src="https://github.com/user-attachments/assets/e0a420b9-9691-41c0-bb6a-5e41a9959331" />
 
 ---
 
-### Key Churn Drivers Identified:
+### Key Variables in the Decision Tree Model:
 
 - **Recent inactivity** — strong leading indicator  
 - **Complaint behavior** — dissatisfied users churn quickly  
 - **New users with low tenure** — early negative experiences lead to churn  
 - **Low purchase and coupon usage** — weak retention habits  
 
-### Business Actions Enabled:
+### Churn Probability Among Customer Segments:
 
 - Early churn alerts for immediate intervention  
 - Complaint recovery workflow with retention bonus  
