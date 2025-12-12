@@ -197,27 +197,52 @@ ABC E-Commerce should take actions on on early-tenure customers with complaints,
 
 ### 8) Churn Probability Among Segments:
 
-<img width="2836" height="1498" alt="image" src="https://github.com/user-attachments/assets/71e260ac-3bd7-4fce-8553-4091f1604c49" />
+The Decision Tree model segments customers into clear risk groups with materially different churn probabilities. These segments translate directly into actionable retention strategies for ABC E-Commerce.
+
+<img width="2826" height="1496" alt="image" src="https://github.com/user-attachments/assets/7ad82f5b-8c80-430e-b623-c49f28b0f279" />
+
+### High-Risk Segments (Immediate Action Required):
+
+#### 1. Segment A: Service & Logistics Failure (Node 11) - Tenure < 1.5, Complain ≥ 0.5, WarehouseToHome ≥ 18:
+
+<img width="1324" height="382" alt="image" src="https://github.com/user-attachments/assets/794b2c48-78f5-4c4e-ab99-cae83f0a86a8" />
+
+- **Churn Probability:** **92.45%**  
+- **Insight**: New customers who experience both service issues and long delivery distances almost always churn. This segment represents the most critical breakdown in the early customer journey.  
+- **Business Implication**: Should prioritize rapid complaint resolution, clear delivery SLA communication, and recovery incentives to prevent immediate customer loss.
+
+#### 2. Segment B: New Customers (Node 9) - Tenure < 1.5, NumberOfAddress ≥ 5.5, No complaint:
+
+<img width="1546" height="388" alt="image" src="https://github.com/user-attachments/assets/c40a0a62-3d99-4154-a7be-8efcfa30fbb3" />
+
+- **Churn Probability:** **68.42%**  
+- **Insight:** These customers churn despite no reported service issues, suggesting low commitment and comparison-shopping behavior rather than dissatisfaction.  
+- **Business Implication:** Retention efforts should focus on differentiated value, pricing transparency, and loyalty benefits instead of service recovery tactics.
+
+### Low-Risk Segment (Retention Budget Protection):
+
+#### 3. Segment C: High-Value Loyal Customers (Node 7) - Tenure ≥ 1.5, HighValue ≥ 0.5:
+
+<img width="1414" height="350" alt="image" src="https://github.com/user-attachments/assets/2163c37d-5d08-4877-b5ba-002e76d956c5" />
+
+- **High-Value Segment:** **0% Churn Probability**  
+- **Insight:** Established high-value customers show near-zero churn and represent the core revenue base of the business.  
+- **Business Implication:** Avoid unnecessary discounting. Focus on experience stability, priority support, and protection from service degradation.
+
+### Key Takeaway:
+
+Customer churn at ABC E-Commerce happens mainly in the early stage of the customer journey.  
+It is driven by **poor service experience, delivery issues, and weak customer loyalty status.**
+
+The Decision Tree shows where the ABC E-Commerce should focus its efforts:
+- Respond quickly when new customers face service or delivery problems
+- Use clear value and loyalty incentives to retain low-commitment shoppers
+- Protect high-value customers by maintaining a reliable and consistent shopping experience
 
 ---
 
-## 7) Insights and Recommendations:
+## 9) Insights and Recommendations:
 
-### Insights:
-
-- Recently inactive customers show highest churn probability  
-- Complaints increase churn likelihood more than tenure alone  
-- High-value customers deliver revenue benefits and retain longer  
-- Mobile and card payment users dominate purchasing behaviour  
-- Coupon usage drives engagement across all segments  
-
-### Recommendations:
-
-- Reinforce onboarding experience within first 3 months  
-- Improve customer service resolution to protect at-risk users  
-- Trigger reactivation messages at early inactivity stages  
-- Maintain loyalty perks for high-value customers  
-- Continue optimizing mobile purchase flow  
 
 ---
 
