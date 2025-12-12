@@ -197,7 +197,7 @@ ABC E-Commerce should take actions on on early-tenure customers with complaints,
 
 ### 8) Churn Probability Among Segments:
 
-<img width="2860" height="1560" alt="image" src="https://github.com/user-attachments/assets/b2240b7e-75b0-47a8-8f15-51708971027f" />
+<img width="2836" height="1498" alt="image" src="https://github.com/user-attachments/assets/71e260ac-3bd7-4fce-8553-4091f1604c49" />
 
 ---
 
