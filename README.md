@@ -278,7 +278,7 @@ ABC E-Commerce’s **churn rate is ~16%**, but it is not evenly distributed. The
 
 #### 3) Logistics friction reduction for long-distance customers:
 - For customers with higher **WarehouseToHome** distance:
-  - Improve ETA accuracy + proactive delay messaging
+  - Improve ETA (Estimated Time of Arrival) accuracy + proactive delay messaging
   - Offer delivery alternatives where possible (pickup points, flexible slots)
 - Treat delivery performance as a churn lever, not only an ops KPI.
 - **Why:** Logistics friction amplifies churn in the highest-risk segment.
