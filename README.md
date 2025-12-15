@@ -265,8 +265,8 @@ ABC E-Commerce’s **churn rate is ~16%**, but it is not evenly distributed. The
 
 #### 1) Tenure-based onboarding (first 30–60 days):
 - Build a simple lifecycle sequence: Welcome → 1st order reassurance → Delivery tracking clarity → Post-delivery check-in → 2nd-purchase nudge.
-- Prioritize customers with **Tenure < 1.5 months** (highest churn branch in the tree).  
-**Why:** Early-tenure customers churn at **41.8%**, so improving early experience gives the highest impact.
+- Prioritize customers with **Tenure < 1.5 months** (highest churn branch in the tree).
+- **Why:** Early-tenure customers churn at **41.8%**, so improving early experience gives the highest impact.
 
 #### 2) Proactive Service Recovery (Complaint-driven churn prevention):
 - Create a “fast lane” for customers who **raise a complaint** (Complain is the #2 predictor).
@@ -274,25 +274,25 @@ ABC E-Commerce’s **churn rate is ~16%**, but it is not evenly distributed. The
   - Resolution SLA + proactive follow-up
   - Compensation tied to root cause (delay, wrong item, damaged item)
 - This directly addresses the highest-churn path (complaint + logistics friction).
-**Why:** Complaint customers churn **~2.2x higher** (69.63% vs 69.63%), and the tree’s highest-risk path hits **92.45% churn** when complaints combine with distance.
+- **Why:** Complaint customers churn **~2.2x higher** (69.63% vs 69.63%), and the tree’s highest-risk path hits **92.45% churn** when complaints combine with distance.
 
 #### 3) Logistics friction reduction for long-distance customers:
 - For customers with higher **WarehouseToHome** distance:
   - Improve ETA accuracy + proactive delay messaging
   - Offer delivery alternatives where possible (pickup points, flexible slots)
 - Treat delivery performance as a churn lever, not only an ops KPI.
-**Why:** Logistics friction amplifies churn in the highest-risk segment.
+- **Why:** Logistics friction amplifies churn in the highest-risk segment.
 
 #### 4) Retain low-loyalty new customers with value differentiation:
 For customers who churn without complaints but show weak loyalty signals (e.g., many addresses):
 - Push loyalty perks (points, free shipping threshold, member benefits)
 - Emphasize value clarity (bundles, pricing transparency)
-- Optimize for 2nd purchase conversion  
-**Why:** Node 9 churn is **68.42%** without service issues → This is a loyalty problem, not a support problem.
+- Optimize for 2nd purchase conversion
+- **Why:** Node 9 churn is **68.42%** without service issues → This is a loyalty problem, not a support problem.
 
 #### 5) Replace blanket coupons with targeted offers:
 - Use incentives mainly for high-risk new customers and recovery cases to protect the margin.
-- Avoid discounting stable high-value customers  
-**Why:** Coupon usage is already high across all segments, including churners, so untargeted discounts will leak margin.
+- Avoid discounting stable high-value customers
+- **Why:** Coupon usage is already high across all segments, including churners, so untargeted discounts will leak margin.
 
 ---
