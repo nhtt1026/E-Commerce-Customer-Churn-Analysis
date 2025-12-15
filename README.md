@@ -265,7 +265,7 @@ ABC E-Commerce’s **churn rate is ~16%**, but it is not evenly distributed. The
 
 #### 1) Tenure-based onboarding (first 30–60 days):
 - Build a simple lifecycle sequence: Welcome → 1st order reassurance → Delivery tracking clarity → Post-delivery check-in → 2nd-purchase nudge.
-- Prioritize customers with **Tenure < 1.5 months** (highest churn branch in the tree).
+- Prioritize customers with **Tenure < 1.5 months** (Highest churn branch in the tree).
 - **Why:** Early-tenure customers churn at **41.8%**, so improving early experience gives the highest impact.
 
 #### 2) Proactive Service Recovery (Complaint-driven churn prevention):
@@ -273,7 +273,7 @@ ABC E-Commerce’s **churn rate is ~16%**, but it is not evenly distributed. The
 - Standardize recovery steps:
   - Resolution SLA + proactive follow-up
   - Compensation tied to root cause (delay, wrong item, damaged item)
-- This directly addresses the highest-churn path (complaint + logistics friction).
+- This directly addresses the highest-churn path (Complaint + Logistics friction).
 - **Why:** Complaint customers churn **~2.2x higher** (69.63% vs 69.63%), and the tree’s highest-risk path hits **92.45% churn** when complaints combine with distance.
 
 #### 3) Logistics friction reduction for long-distance customers:
